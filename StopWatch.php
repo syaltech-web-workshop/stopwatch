@@ -1,25 +1,18 @@
 <?php
 
+
 class StopWatch
 {
-    protected $filePath;
+    protected $storage;
     protected $startTime;
     protected $stopTime;
 
-    public function __construct($filePath)
+    public function __construct($storage)
     {
-        $this->filePath = $filePath;
-        if (file_exists($filePath)) {
-            $text = trim(file_get_contents($filePath));
-            if ($text) {
-                $data = explode("\n", $text);
-                $this->startTime = $data[0];
-                $this->stopTime = isset($data[1]) ? $data[1] : null;
-            }
-        } else {
-            file_put_contents($filePath, null);
-        }
-
+        $this->storage = $storage;
+        $data = $storage->restore();
+        $this->startTime = isset($data[0]) ? $data[0] : null;
+        $this->stopTime = isset($data[1]) ? $data[1] : null;
     }
 
     public function start()
@@ -55,11 +48,11 @@ class StopWatch
 
     public function reset()
     {
-        file_put_contents($this->filePath, null);
+        $this->storage->clear();
     }
 
     public function save()
     {
-        file_put_contents($this->filePath, $this->startTime . "\n" . $this->stopTime);
+        $this->storage->store($this->startTime,$this->stopTime);
     }
 }

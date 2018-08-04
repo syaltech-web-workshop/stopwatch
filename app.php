@@ -30,8 +30,9 @@ if (empty($commands[$command])) {
 }
 
 require_once 'StopWatch.php';
+require_once 'Storage.php';
 
-$stopwatch = new StopWatch("stopwatch.txt");
+$stopwatch = new StopWatch(new Storage("stopwatch.txt"));
 
 $commands[$command]['runs']();
 
