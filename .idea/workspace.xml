@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed06029e-65c3-4537-a4a6-cf4f3a5754a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../StopWatch.php" afterPath="$PROJECT_DIR$/../StopWatch.php" />
       <change beforePath="$PROJECT_DIR$/../app.php" afterPath="$PROJECT_DIR$/../app.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StopWatch.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StopWatch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../StopWatch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="281">
+              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="559">
+              <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -66,8 +65,8 @@
         <option value="$PROJECT_DIR$/app.php" />
         <option value="$PROJECT_DIR$/StopWatch.php" />
         <option value="$PROJECT_DIR$/Storage.php" />
-        <option value="$PROJECT_DIR$/../app.php" />
         <option value="$PROJECT_DIR$/../StopWatch.php" />
+        <option value="$PROJECT_DIR$/../app.php" />
       </list>
     </option>
   </component>
@@ -150,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533390005762</updated>
       <workItem from="1533390007343" duration="5768000" />
-      <workItem from="1533462914542" duration="5931000" />
+      <workItem from="1533462914542" duration="6977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11699000" />
+    <option name="totallyTimeSpent" value="12745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -232,18 +231,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app.php">
+    <entry file="file://$PROJECT_DIR$/../StopWatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="281">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../StopWatch.php">
+    <entry file="file://$PROJECT_DIR$/../app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="559">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding />
         </state>
       </provider>

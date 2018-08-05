@@ -41,11 +41,10 @@ $commands[$command]['runs']();
 function start_work()
 {
     global $stopwatch;
-    if (false === $stopwatch->start()) {
+    if (false ===($started = $stopwatch->start())) {
         println("You have already started");
         exit();
     }
-    $stopwatch->start();
 }
 
 function stop_work()
@@ -59,8 +58,6 @@ function stop_work()
         println("You already stop the time");
         exit;
     }
-
-    $stopwatch->stop();
 }
 
 function stats()
