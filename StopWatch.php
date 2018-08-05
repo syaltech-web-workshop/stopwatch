@@ -28,7 +28,10 @@ class StopWatch
     public function stop()
     {
         if (!$this->startTime) {
-            return false;
+            return -1;
+        }
+        if ($this->stopTime){
+            return -2 ;
         }
         $this->stopTime = time();
         $this->save();

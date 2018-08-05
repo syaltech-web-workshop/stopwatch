@@ -51,10 +51,15 @@ function start_work()
 function stop_work()
 {
     global $stopwatch;
-    if (false === $stopwatch->stop()) {
+    if (-1 === ($result = $stopwatch->stop())) {
         println("You haven't started yet");
         exit;
     }
+    if (-2 ===$result){
+        println("You already stop the time");
+        exit;
+    }
+
     $stopwatch->stop();
 }
 
